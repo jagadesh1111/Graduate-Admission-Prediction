@@ -53,7 +53,8 @@ The dataset used in this analysis is stored in the file "Admission_Predict.csv".
 2. Download the "Admission_Predict.csv" file and place it in the same directory as the script.
 3. Open the script in a Python IDE or text editor and run it.
 4. The script will generate various plots and display the analysis results in the console.
-Note: The script uses deprecated functions distplot and barplot from the seaborn library, which may generate warnings. Consider updating the code to use the recommended functions (displot and histplot) to avoid the warnings.
+### Note: 
+The script uses deprecated functions distplot and barplot from the seaborn library, which may generate warnings. Consider updating the code to use the recommended functions (displot and histplot) to avoid the warnings.
 
 # License
 This project is licensed under the MIT License. Feel free to use and modify the code according to your needs.
