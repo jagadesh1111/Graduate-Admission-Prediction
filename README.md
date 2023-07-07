@@ -33,27 +33,27 @@ The dataset used in this analysis is stored in the file "Admission_Predict.csv".
 - Plot the probability distribution of the chance of admission.
 - Calculate the descriptive statistics for the chance of admission column.
 - Calculate the correlation coefficients of the chance of admission with other features and display them in a table.
-Prepare the data for modeling:
-Separate the features (X) and the target variable (y).
-Perform feature scaling using the StandardScaler on the CGPA, GRE Score, and TOEFL Score columns.
-Split the data into training and testing sets using train_test_split.
-Perform prediction using a linear regression model:
-Create a LinearRegression object and fit the model using the training data.
-Make predictions on the testing data and calculate the R-squared score, mean squared error, and root mean squared error.
-Plot the residuals and the scatter plot of the predicted values against the actual values.
-Perform prediction using a decision tree classifier:
-Prepare the data for classification by converting the chance of admission into binary labels (0 or 1) based on a threshold.
-Split the data into training and testing sets using train_test_split.
-Create a DecisionTreeClassifier object and fit the model using the training data.
-Make predictions on the testing data and calculate the accuracy, precision, recall, and F1 score.
-Visualize the confusion matrix for the testing data.
-Visualize the confusion matrix for the training data.
-Usage
-Install the required dependencies by running pip install pandas numpy matplotlib seaborn scikit-learn in your Python environment.
-Download the "Admission_Predict.csv" file and place it in the same directory as the script.
-Open the script in a Python IDE or text editor and run it.
-The script will generate various plots and display the analysis results in the console.
+- Prepare the data for modeling:
+  - Separate the features (X) and the target variable (y).
+  - Perform feature scaling using the StandardScaler on the CGPA, GRE Score, and TOEFL Score columns.
+  - Split the data into training and testing sets using train_test_split.
+- Perform prediction using a linear regression model:
+  - Create a LinearRegression object and fit the model using the training data.
+  - Make predictions on the testing data and calculate the R-squared score, mean squared error, and root mean squared error.
+  - Plot the residuals and the scatter plot of the predicted values against the actual values.
+- Perform prediction using a decision tree classifier:
+  - Prepare the data for classification by converting the chance of admission into binary labels (0 or 1) based on a threshold.
+  - Split the data into training and testing sets using train_test_split.
+  - Create a DecisionTreeClassifier object and fit the model using the training data.
+  - Make predictions on the testing data and calculate the accuracy, precision, recall, and F1 score.
+  - Visualize the confusion matrix for the testing data.
+  - Visualize the confusion matrix for the training data.
+# Usage
+1. Install the required dependencies by running pip install pandas numpy matplotlib seaborn scikit-learn in your Python environment.
+2. Download the "Admission_Predict.csv" file and place it in the same directory as the script.
+3. Open the script in a Python IDE or text editor and run it.
+4. The script will generate various plots and display the analysis results in the console.
 Note: The script uses deprecated functions distplot and barplot from the seaborn library, which may generate warnings. Consider updating the code to use the recommended functions (displot and histplot) to avoid the warnings.
 
-License
+# License
 This project is licensed under the MIT License. Feel free to use and modify the code according to your needs.
