@@ -4,16 +4,16 @@ This repository contains a Python script that analyzes admission data using vari
 # Dataset
 The dataset used in this analysis is stored in the file "Admission_Predict.csv". It contains information about different factors that may influence the chance of admission to a university. The dataset includes the following columns:
 
--GRE Score
--TOEFL Score
--University Rating
--SOP (Statement of Purpose)
--LOR (Letter of Recommendation)
--CGPA (Cumulative Grade Point Average)
--Research
--Chance of Admit
--Data Analysis
--The script performs the following analysis and visualization tasks:
+- GRE Score
+- TOEFL Score
+- University Rating
+- SOP (Statement of Purpose)
+- LOR (Letter of Recommendation)
+- CGPA (Cumulative Grade Point Average)
+- Research
+- Chance of Admit
+- Data Analysis
+- The script performs the following analysis and visualization tasks:
 
 Load the dataset using pandas and display the first few rows to get an overview of the data.
 Remove the "Serial No." column as it does not provide any relevant information.
